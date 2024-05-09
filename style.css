@@ -16,31 +16,37 @@
   --swiper-theme-color:       #4A4A4A;
   --swiper-pagination-color:  #4A4A4A;
 }
+
 :root {
-  --body-font           : "Lato", sans-serif;
-  --heading-font        : "Jost", sans-serif;
+  --body-font: "Lato", sans-serif;
+  --heading-font: "Jost", sans-serif;
 }
+
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .bg-gray {
   background: var(--gray-color);
 }
+
 .bg-dark {
   background: var(--dark-color);
 }
+
 .bg-light {
   background: var(--light-color);
 }
+
 .bg-light-blue {
   background: var(--light-blue-color);
 }
+
 .u-full-width {
-    width: 100%;
-    border: none;
+  width: 100%;
+  border: none;
 }
+
 .search-popup {
   background-color: #fff;
   position: fixed;
@@ -51,28 +57,31 @@
   opacity: 0;
   visibility: hidden;
   z-index: 9999;
-  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
-  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
   transition: opacity 0.3s 0s, visibility 0s 0.3s;
 }
+
 .site-header {
   position: fixed;
   width: 100%;
   z-index: 10;
   transition: background 0.3s ease-out;
 }
+
 .navbar-toggler svg.navbar-icon {
   width: 50px;
   height: 50px;
 }
+
 .navbar-nav .nav-item a.nav-link {
   color: var(--accent-color);
 }
-.navbar-nav .nav-item a.nav-link.active, 
-.navbar-nav .nav-item a.nav-link:focus, 
+
+.navbar-nav .nav-item a.nav-link.active,
+.navbar-nav .nav-item a.nav-link:focus,
 .navbar-nav .nav-item a.nav-link:hover {
   color: var(--primary-color);
 }
+
 .product-store .product-card .cart-concern {
   bottom: 75px;
   width: 100%;
@@ -83,6 +92,7 @@
   transition: all 0.3s ease-out;
   opacity: 0;
 }
+
 .icon-box .icon-box-icon svg {
   width: 26px;
   height: 26px;
